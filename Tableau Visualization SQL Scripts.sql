@@ -2,7 +2,7 @@
 -- The aim si to visualiaze our Covid data in Tableau and as we can't connect Tableau Desktop to this Database we will run
 -- the queries and copying the results in Excel table that we will import in Tableau later.
 
--- 1- Let's create our first table which will give as the death percentage at a global level
+-- 1- Let's create our first table which will give us the death percentage at a global level
 
 SELECT SUM(CAST(new_cases AS float))AS total_cases, 
        SUM(CAST(new_deaths as float)) AS total_deaths, 
